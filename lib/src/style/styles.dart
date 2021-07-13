@@ -20,6 +20,7 @@ import '../bar.dart';
 import '../interface.dart';
 import '../item.dart';
 import 'fixed_circle_tab_style.dart';
+import 'fixed_cutout_circle_tab_style.dart';
 import 'fixed_tab_style.dart';
 import 'flip_tab_style.dart';
 import 'react_circle_tab_style.dart';
@@ -54,6 +55,15 @@ DelegateBuilder supportedStyle(
       break;
     case TabStyle.fixedCircle:
       builder = FixedCircleTabStyle(
+        items: items,
+        color: color,
+        activeColor: activeColor,
+        backgroundColor: backgroundColor,
+        convexIndex: items.length ~/ 2,
+      );
+      break;
+    case TabStyle.fixedCutoutCircle:
+      builder = FixedCutoutCircleTabStyle(
         items: items,
         color: color,
         activeColor: activeColor,

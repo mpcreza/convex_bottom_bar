@@ -60,6 +60,8 @@ enum TabStyle {
   /// ![](https://github.com/hacktons/convex_bottom_bar/raw/master/doc/appbar-fixed-circle.gif)
   fixedCircle,
 
+  fixedCutoutCircle,
+
   /// Convex shape is moved after selection, see [ReactTabStyle].
   ///
   /// ![](https://github.com/hacktons/convex_bottom_bar/raw/master/doc/appbar-react.gif)
