@@ -53,8 +53,8 @@ class FixedCutoutCircleTabStyle extends InnerBuilder {
         maxHeight: style.layoutSize + 150,
         child: Container(
           // necessary otherwise the badge will not large enough
-          width: style.layoutSize + 40,
-          height: style.layoutSize + 40,
+          width: style.layoutSize,
+          height: style.layoutSize,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             border: Border.all(color: backgroundColor, width: 3),
