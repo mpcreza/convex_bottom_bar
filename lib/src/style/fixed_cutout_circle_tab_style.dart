@@ -49,8 +49,8 @@ class FixedCutoutCircleTabStyle extends InnerBuilder {
     if (index == convexIndex) {
       final item = items[index];
       return OverflowBox(
-        maxWidth: style.layoutSize + 150,
-        maxHeight: style.layoutSize + 150,
+        maxWidth: style.layoutSize + 500,
+        maxHeight: style.layoutSize + 500,
         child: Container(
           // necessary otherwise the badge will not large enough
           width: style.layoutSize,
